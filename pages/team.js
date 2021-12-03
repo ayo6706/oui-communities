@@ -5,7 +5,7 @@ import Head from 'next/head'
 
 
 import  '../styles/Team.module.css'
-import Person from '../components/Team/Person';
+// import Person from '../components/Team/Person';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -43,7 +43,7 @@ function Team() {
                 <div className="team-list">
                     <div className="container">
                         <div className="row">
-                            <Person />    
+                           
                         </div>
                     </div>
                 </div>

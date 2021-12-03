@@ -1,22 +1,17 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Image from 'next/image';
 import '../styles/Home.module.css'
 
-
+import repotecc from '../public/assets/img/partners/repotecc.png';
+import elite from '../public/assets/img/partners/elite.jpeg';
+import gdsc from '../public/assets/img/partners/gdsc.png';
+import hackclub from '../public/assets/img/partners/hackclub.png';
+import gdsclogo from '../public/assets/img/partners/dsclogo.png';
+import tecno from '../public/assets/img/partners/tecno.png';
+import microsoft from '../public/assets/img/partners/microsoft.jpg';
+import hultprize from '../public/assets/img/partners/IMG_3816.png';
 
 import Navbar from '../components/Navbar';
-import Mainone from '../components/Home/Mainone';
-// import reportWebVitals from './reportWebVitals';
-import Whyjoinus from '../components/Home/Whyjoinus';
-import Hireus from '../components/Home/Hireus';
-import Aboutus from '../components/Home/Aboutus';
-import Workshops from '../components/Home/Workshops';
-import Partners from '../components/Home/Partners';
-import Contactus from '../components/Home/Contactus';
-// import PageNotFound from './components/404-page';
-import Shop from '../components/Home/Shop';
-import Subscriber from '../components/Home/Subcriber';
-import Footer from '../components/Footer';
-
 
 
 export default function Home() {
@@ -30,20 +25,130 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/><link rel="canonical" href="https://repotecc.com/" />
       </Head>
-      <Navbar />
+      
+
+      <header>
+        <div className="container">
+
+          <div className="row">
+            <div className="col-12 text-center">
+            <h1>OUI COMMUNITIES</h1>
+            </div>
+            </div>
+        </div>
+       
+      </header>
       <main className="container">
-        <Mainone />
-        <Whyjoinus />
-        <Hireus />
-        <Aboutus />
-        <Workshops />
-        <Shop />
-        <Partners />
-        <Contactus />
-        <Subscriber />
+      <div className="album py-5 bg-light">
+    <div className="container">
+
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div className="col">
+          <div className="card shadow-sm">
+            <Image src={hultprize} width={151} height={250}/>
+
+            <div className="card-body">
+              <h3>SOme kins</h3>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+           <Image src={tecno}  width={151} height={250}/>
+
+            <div className="card-body">
+              <h3>SOme kins</h3>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+           <Image src={gdsclogo} width={151} height={250} />
+
+            <div className="card-body">
+              <h3>Some kins</h3>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="card shadow-sm">
+            <Image src={repotecc} width={151} height={250}/>
+
+            <div className="card-body">
+              <h3>SOme kins</h3>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div className="col">
+          <div className="card shadow-sm">
+           <Image src={microsoft} width={151} height={250} />
+            <div className="card-body">
+              <h3>SOme kins</h3>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+          <Image src={elite} width={151} height={250} />
+
+            <div className="card-body">
+              <h3>SOme kins</h3>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div className="col">
+          <div className="card shadow-sm">
+            <Image src={hackclub} width={151} height={250} />
+
+            <div className="card-body">
+              <h3>SOme kins</h3>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
       </main>
      
-      <Footer />
+      
     </>
   )
 }
