@@ -109,6 +109,8 @@ export default function Home() {
 
       
         <div className="col">
+
+        <Link href="/elite">
           <div className="card shadow-sm">
           <Image src={elite} width={151} height={250} />
 
@@ -120,6 +122,8 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          </Link>
         </div>
 
 
