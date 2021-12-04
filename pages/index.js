@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Image from 'next/image';
 import '../styles/Home.module.css'
 
@@ -18,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>#FindYourWayInTech | Repotecc</title>
+        <title>OUI COMMUNITIES</title>
         {/* <meta name="description" content="Repotecc it's a tech community. We'll help you get started with creative and innovative skills."/> */}
         <meta name="robots" content="index, follow" />
         {/* <link rel="icon" href="assets/img/repotecc app logo.png" /> */}
@@ -48,7 +49,7 @@ export default function Home() {
             <Image src={hultprize} width={151} height={250}/>
 
             <div className="card-body">
-              <h3>SOme kins</h3>
+              <h4>Hult Prize</h4>
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 
@@ -61,7 +62,7 @@ export default function Home() {
            <Image src={tecno}  width={151} height={250}/>
 
             <div className="card-body">
-              <h3>SOme kins</h3>
+              <h4>Tecno Campus Ambassadors </h4>
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 
@@ -70,55 +71,49 @@ export default function Home() {
           </div>
         </div>
         <div className="col">
-          <div className="card shadow-sm">
-           <Image src={gdsclogo} width={151} height={250} />
+          <a href="https://gdsc.community.dev/oduduwa-university-ipetumodu-osun-state/">
+            <div className="card shadow-sm">
+            <Image src={gdsclogo} width={151} height={250} />
 
-            <div className="card-body">
-              <h3>Some kins</h3>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div className="d-flex justify-content-between align-items-center">
-                
+              <div className="card-body">
+                <h4>Google Developer Student Clubs</h4>
+                <p className="card-text">GDSC OUI is focused on technological and career development events. </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  
+                </div>
               </div>
             </div>
-          </div>
+
+          </a>
         </div>
 
         <div className="col">
-          <div className="card shadow-sm">
-            <Image src={repotecc} width={151} height={250}/>
+          <a href="https://repotecc.com">
+            <div className="card shadow-sm">
+              <Image src={repotecc} width={151} height={250}/>
 
-            <div className="card-body">
-              <h3>SOme kins</h3>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div className="d-flex justify-content-between align-items-center">
-                
+              <div className="card-body">
+                <h4>Repotecc</h4>
+                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div className="d-flex justify-content-between align-items-center">
+                  
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
 
 
 
 
 
-        <div className="col">
-          <div className="card shadow-sm">
-           <Image src={microsoft} width={151} height={250} />
-            <div className="card-body">
-              <h3>SOme kins</h3>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div className="d-flex justify-content-between align-items-center">
-                
-              </div>
-            </div>
-          </div>
-        </div>
+      
         <div className="col">
           <div className="card shadow-sm">
           <Image src={elite} width={151} height={250} />
 
             <div className="card-body">
-              <h3>SOme kins</h3>
+              <h4>Elite community</h4>
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 
@@ -130,19 +125,38 @@ export default function Home() {
 
 
         <div className="col">
-          <div className="card shadow-sm">
-            <Image src={hackclub} width={151} height={250} />
 
+          <Link href="/hackclub">          
+            <div className="card shadow-sm">
+              <Image src={hackclub} width={151} height={250} />
+
+              <div className="card-body">
+                <h4>Hack Club</h4>
+                <p className="card-text">The goal of Hack Club is to help you become a hacker but not the actual hacking 🤣🤣. </p>
+                <div className="d-flex justify-content-between align-items-center">
+                  
+                </div>
+              </div>
+            </div>
+
+          </Link>
+        </div>
+       
+
+        <div className="col">
+          <div className="card shadow-sm">
+           <Image src={microsoft} width={151} height={250} />
             <div className="card-body">
-              <h3>SOme kins</h3>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h4>Microsoft Student Ambassadors</h4>
+              <p className="card-text">More infos will be posted soon.</p>
               <div className="d-flex justify-content-between align-items-center">
                 
               </div>
             </div>
           </div>
         </div>
-       
+
+
       </div>
     </div>
   </div>
