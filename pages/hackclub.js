@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function hackclub() {
     return (
@@ -39,7 +40,7 @@ export default function hackclub() {
 
      
       <nav className="blog-pagination" aria-label="Pagination">
-        <hr/><a className="btn btn-outline-primary" href="/">go back</a>
+        <hr/><Link className="btn btn-outline-primary" href="/">go back</Link>
         {/* <a className="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a> */}
       </nav>
 

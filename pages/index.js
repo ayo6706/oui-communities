@@ -34,7 +34,7 @@ export default function Home() {
           <div className="row">
             <div className="col-12 text-center">
             <h1>OUI COMMUNITIES</h1>
-            <p>just a site that shows all Communities in oduduwa university ipetumodu</p>
+            <p>just a simple website that shows all communities in oduduwa university ipetumodu</p>
             </div>
             </div>
         </div>
