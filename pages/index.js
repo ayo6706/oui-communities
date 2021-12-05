@@ -12,7 +12,7 @@ import tecno from '../public/assets/img/partners/tecno.png';
 import microsoft from '../public/assets/img/partners/microsoft.jpg';
 import hultprize from '../public/assets/img/partners/IMG_3816.png';
 
-import Navbar from '../components/Navbar';
+
 
 
 export default function Home() {
@@ -34,41 +34,47 @@ export default function Home() {
           <div className="row">
             <div className="col-12 text-center">
             <h1>OUI COMMUNITIES</h1>
+            <p>just a site that shows all Communities in oduduwa university ipetumodu</p>
             </div>
             </div>
         </div>
        
       </header>
       <main className="container">
-      <div className="album py-5 bg-light">
+      <div className="py-5">
     <div className="container">
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
-          <div className="card shadow-sm">
+          <Link href="/hultprize">
+            <div className="card shadow-sm">
             <Image src={hultprize} width={151} height={250}/>
 
             <div className="card-body">
               <h4>Hult Prize</h4>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p className="card-text">The Hult Prize is an annual, year-long competition that crowd-sources ideas from university level students click to learn more.</p>
               <div className="d-flex justify-content-between align-items-center">
                 
               </div>
             </div>
           </div>
+
+          </Link>
         </div>
         <div className="col">
-          <div className="card shadow-sm">
-           <Image src={tecno}  width={151} height={250}/>
+          <Link href="/tecno">
+            <div className="card shadow-sm">
+              <Image src={tecno}  width={151} height={250}/>
 
-            <div className="card-body">
-              <h4>Tecno Campus Ambassadors </h4>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div className="d-flex justify-content-between align-items-center">
-                
+              <div className="card-body">
+                <h4>Tecno Campus Ambassadors </h4>
+                <p className="card-text">A community of people that represents the brand click to learn more.</p>
+                <div className="d-flex justify-content-between align-items-center">
+                  
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
         <div className="col">
           <a href="https://gdsc.community.dev/oduduwa-university-ipetumodu-osun-state/">
@@ -94,7 +100,7 @@ export default function Home() {
 
               <div className="card-body">
                 <h4>Repotecc</h4>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p className="card-text">A community that help beginners start a career in tech.</p>
                 <div className="d-flex justify-content-between align-items-center">
                   
                 </div>
@@ -116,7 +122,7 @@ export default function Home() {
 
             <div className="card-body">
               <h4>Elite community</h4>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p className="card-text">Elite community is a community where we work together to expand our knowledge beyond academic click to learn more.</p>
               <div className="d-flex justify-content-between align-items-center">
                 
               </div>

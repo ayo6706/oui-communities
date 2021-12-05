@@ -30,14 +30,16 @@ export default function hackclub() {
           <p>By the students, for the students.</p>
         </blockquote>
         <p>Learning to code is like gaining a superpower — turning you from a consumer of technology into a creator. It shouldn’t be taught like a class — it should be a creative, inclusive space. To foster this environment, every Hack Club is student-led & members make self-directed projects.</p>
-        <h3>Example lists</h3>
+        <h3>To join our whatsapp</h3>
+        <a href="https://chat.whatsapp.com/CVMHeY863y0BGP8HoT8WdN"> https://chat.whatsapp.com/CVMHeY863y0BGP8HoT8WdN</a>
+
         </article>
 
     
 
      
       <nav className="blog-pagination" aria-label="Pagination">
-        <a className="btn btn-outline-primary" href="/">go back</a>
+        <hr/><a className="btn btn-outline-primary" href="/">go back</a>
         {/* <a className="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a> */}
       </nav>
 
